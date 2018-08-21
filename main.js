@@ -7,6 +7,7 @@ request.get('https://api.github.com/users/tcwhitak')
   })
 
 function displayInfo (input) {
+  console.log(input)
   console.log(input.name)
   console.log(input.html_url)
   console.log(input.email)
@@ -14,6 +15,8 @@ function displayInfo (input) {
   document.getElementById('topName').innerText = input.name
   document.getElementById('nameLine').innerText = input.name
   document.getElementById('emailLine').innerText = input.email
+  document.getElementById('link').href = input.html_url
+  document.getElementById('link').innerText = input.login
   document.getElementById('bioArea').innerText = input.bio
   document.getElementById('headShot').src = input.avatar_url
 }
@@ -52,30 +55,3 @@ function displayInfo (input) {
 //     "created_at": "2015-02-16T00:48:36Z",
 //     "updated_at": "2018-06-30T14:56:51Z"
 //   }
-
-// let searchTerm = window.encodeURIComponent(field.value)
-// request.get('https://www.googleapis.com/books/v1/volumes?q=' + searchTerm)
-//   .then(response => {
-//     displayBookResults(response.body)
-//   })
-
-// function displayBookResults (results) {
-//   let books = results.items
-//   let output = '<h2>Results</h2>'
-//   for (let book of books) {
-//     output += `
-//       <div class="book">
-//         <figure>
-//           <img src="${book.volumeInfo.imageLinks.thumbnail}" alt="${book.volumeInfo.title}">
-//         </figure>
-//         <h3>${book.volumeInfo.title}</h3>
-//         <p><strong>Authors:</strong> ${book.volumeInfo.authors.join(', ')}</p>
-//         <p><strong>Description:</strong><br>
-//         ${book.volumeInfo.description}
-//         </p>
-
-//       </div>
-//       `
-//   }
-//   document.getElementById('output').innerHTML = output
-// }

@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3F3F3;
+}
+
+.header{
+    background-color: #261f1d;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.basics{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.story {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subHeader{
+    margin: 15px;
+}
+#headShot {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.infoList{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.lineLabel {
+    color: #7CADB7;
+}
+
+#nameLine{
+    color: #98A3B4;
+}
+#emailLine{
+    color: #98A3B4;
+}
+
+#link{
+    color: #261f1d;
+}
+
+#bioArea{
+    color: #98A3B4;
+    padding-left: 15px;
+    border-left: 1px solid #98A3B4;
+}

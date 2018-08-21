@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,28 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js" defer></script>
 </head>
+
 <body>
-    <h1 id="topName"></h1>
+    <div class="header">
+        <h1 id="topName"></h1>
+    </div>
+
     <div class="container">
-        <div>
-                <h2>The Basics</h2>
-                <ul>
-                    <li><span class="lineLabel">Name: </span><span id="nameLine"></span></li>
-                    <li><span class="lineLabel">Email: </span><span id="emailLine"></span></li>
-                    <li><span class="lineLabel">Github: </span><a href="#">insert link as href and username as text</a></li>
-                </ul>
+        <div class="basics">
+            <h2 class="subHeader">The Basics</h2>
+            <ul class="infoList">
+                <li><span class="lineLabel">Name: </span><span id="nameLine"></span></li>
+                <li><span class="lineLabel">Email: </span><span id="emailLine"></span></li>
+                <li><span class="lineLabel">Github: </span><a id="link" href="#">insert link as href and username as text</a></li>
+            </ul>
         </div>
-       <div>
-            <h2>The Story</h2>
+        <div class="story">
+            <h2 class="subHeader">The Story</h2>
             <p id="bioArea">some paragraph</p>
-    
-       </div>
-       <div>
-            <img id="headShot" src="#"
-            alt="headShot"/>
-       </div>
+
+        </div>
+            <img id="headShot" src="#" alt="headShot" />
     </div>
 </body>
+
 </html>
