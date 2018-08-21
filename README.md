@@ -24,5 +24,40 @@ Read up on the [hCard microformat](http://microformats.org/wiki/h-card) and make
 
 - [Full Screen Mockup](github-portfolio.png)
 - [GitHub User API](https://api.github.com/users/username) - change username
+
+{
+  "login": "tcwhitak",
+  "id": 11022376,
+  "node_id": "MDQ6VXNlcjExMDIyMzc2",
+  "avatar_url": "https://avatars1.githubusercontent.com/u/11022376?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/tcwhitak",
+  "html_url": "https://github.com/tcwhitak",
+  "followers_url": "https://api.github.com/users/tcwhitak/followers",
+  "following_url": "https://api.github.com/users/tcwhitak/following{/other_user}",
+  "gists_url": "https://api.github.com/users/tcwhitak/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/tcwhitak/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/tcwhitak/subscriptions",
+  "organizations_url": "https://api.github.com/users/tcwhitak/orgs",
+  "repos_url": "https://api.github.com/users/tcwhitak/repos",
+  "events_url": "https://api.github.com/users/tcwhitak/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/tcwhitak/received_events",
+  "type": "User",
+  "site_admin": false,
+  "name": "Chad Whitaker",
+  "company": null,
+  "blog": "",
+  "location": null,
+  "email": null,
+  "hireable": null,
+  "bio": null,
+  "public_repos": 0,
+  "public_gists": 0,
+  "followers": 0,
+  "following": 0,
+  "created_at": "2015-02-16T00:48:36Z",
+  "updated_at": "2018-06-30T14:56:51Z"
+}
+
 - [GitHub API Docs](https://developer.github.com/)
 - [Sawtooth banners with CSS](https://medium.com/coding-design/saw-tooth-banners-with-css-95c31e91c196)
