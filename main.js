@@ -1,6 +1,7 @@
 import request from 'superagent'
 
 request.get('https://api.github.com/users/tcwhitak')
+//   .auth('')
   .then(response => {
     displayInfo(response.body)
   })
@@ -10,6 +11,11 @@ function displayInfo (input) {
   console.log(input.html_url)
   console.log(input.email)
   console.log(input.bio)
+  document.getElementById('topName').innerText = input.name
+  document.getElementById('nameLine').innerText = input.name
+  document.getElementById('emailLine').innerText = input.email
+  document.getElementById('bioArea').innerText = input.bio
+  document.getElementById('headShot').src = input.avatar_url
 }
 
 // example github api user output
@@ -67,7 +73,7 @@ function displayInfo (input) {
 //         <p><strong>Description:</strong><br>
 //         ${book.volumeInfo.description}
 //         </p>
-        
+
 //       </div>
 //       `
 //   }
