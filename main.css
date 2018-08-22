@@ -6,12 +6,14 @@
 
 body{
     background-color: #F3F3F3;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
     background-color: #261f1d;
-    color: white;
+    color: #EDEDEE;
     text-align: center;
+    line-height: 75px;
 }
 
 .container{

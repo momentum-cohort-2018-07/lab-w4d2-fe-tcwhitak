@@ -7,11 +7,11 @@ request.get('https://api.github.com/users/tcwhitak')
   })
 
 function displayInfo (input) {
-  console.log(input)
-  console.log(input.name)
-  console.log(input.html_url)
-  console.log(input.email)
-  console.log(input.bio)
+//   console.log(input)
+//   console.log(input.name)
+//   console.log(input.html_url)
+//   console.log(input.email)
+//   console.log(input.bio)
   document.getElementById('topName').innerText = input.name
   document.getElementById('nameLine').innerText = input.name
   document.getElementById('emailLine').innerText = input.email
