@@ -1,7 +1,7 @@
 import request from 'superagent'
 
 request.get('https://api.github.com/users/tcwhitak')
-//   .auth('')
+  .auth('300f7bee3ea98b515b5c4b5812bf589ca5c269ea')
   .then(response => {
     displayInfo(response.body)
   })
